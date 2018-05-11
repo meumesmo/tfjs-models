@@ -19,6 +19,22 @@ import * as tf from '@tensorflow/tfjs-core';
 import * as posenet from '../src';
 import { drawKeypoints, drawSkeleton, renderImageToCanvas } from './demo_util';
 
+
+const images = [
+    'land1.jpeg',
+    'land2.jpeg',
+    'land3.jpeg',
+    'land4.jpeg',
+    'land5.jpeg',
+    'por1.jpeg',
+    'por2.jpeg',
+    'por3.jpeg',
+    'por4.jpeg',
+    'por5.jpeg',
+    ];
+
+
+/*
 const images = [
     'frisbee.jpg',
     'frisbee_2.jpg',
@@ -44,7 +60,7 @@ const images = [
     'skate_park.jpg',
     'tennis_in_crowd.jpg',
     'two_on_bench.jpg',
-];
+];*/
 
 /**
  * Draws a pose if it passes a minimum confidence onto a canvas. 
@@ -64,7 +80,8 @@ function drawResults(canvas, poses,
     });
 }
 
-const imageBucket = 'https://storage.googleapis.com/tfjs-models/assets/posenet/';
+/* const imageBucket = 'https://storage.googleapis.com/tfjs-models/assets/posenet/'; */
+const imageBucket = 'http://education.meumesmo.com.br/images/';
 
 async function loadImage(imagePath) {
     const image = new Image();
