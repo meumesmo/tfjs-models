@@ -21,16 +21,16 @@ import { drawKeypoints, drawSkeleton, renderImageToCanvas } from './demo_util';
 
 
 const images = [
-    'land1.jpeg',
-    'land2.jpeg',
-    'land3.jpeg',
-    'land4.jpeg',
-    'land5.jpeg',
-    'por1.jpeg',
-    'por2.jpeg',
-    'por3.jpeg',
-    'por4.jpeg',
-    'por5.jpeg',
+    'land1.jpg',
+    'land2.jpg',
+    'land3.jpg',
+    'land4.jpg',
+    'land5.jpg',
+    'por1.jpg',
+    'por2.jpg',
+    'por3.jpg',
+    'por4.jpg',
+    'por5.jpg',
     ];
 
 
